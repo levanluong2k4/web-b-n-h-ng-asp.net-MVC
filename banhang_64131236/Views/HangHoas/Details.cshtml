@@ -1,0 +1,166 @@
+﻿@model banhang_64131236.Models.HangHoa
+
+@{
+    ViewBag.Title = "Chi tiết sản phẩm";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+
+<div class="container my-5">
+    <div class="card shadow-sm">
+        <div class="card-header bg-primary text-white">
+            <h2 class="mb-0">Chi tiết sản phẩm</h2>
+        </div>
+        <div class="card-body">
+            <div class="row">
+                <!-- Ảnh sản phẩm -->
+                <div class="col-md-4 mb-4">
+                    <div class="product-image-container">
+                        <img src="~/img/@Model.AnhHH" alt="Alternate Text"
+                             class="img-fluid rounded shadow"
+                             alt="@Model.TenHH"
+                             style="max-width: 100%; height: auto;" />
+                    </div>
+                </div>
+
+                <!-- Thông tin sản phẩm -->
+                <div class="col-md-8">
+                    <div class="product-details">
+                        <h3 class="text-primary mb-4">@Model.TenHH</h3>
+
+                        <div class="info-group mb-3">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="detail-item">
+                                        <span class="label font-weight-bold">Giá bán:</span>
+                                        <span class="value text-danger">@string.Format("{0:N0} VNĐ", Model.GiaBan)</span>
+                                    </div>
+
+                                    <div class="detail-item">
+                                        <span class="label font-weight-bold">Số lượng tồn:</span>
+                                        <span class="value">@Model.SoLuongHangTon</span>
+                                    </div>
+
+                                    <div class="detail-item">
+                                        <span class="label font-weight-bold">Loại hàng:</span>
+                                        <span class="value">@Model.LoaiHang.TenLH</span>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <div class="detail-item">
+                                        <span class="label font-weight-bold">Ngày sản xuất:</span>
+                                        <span class="value">@Model.NSX.ToString("dd/MM/yyyy")</span>
+                                    </div>
+
+                                    <div class="detail-item">
+                                        <span class="label font-weight-bold">Hạn sử dụng:</span>
+                                        <span class="value">@Model.HSD.ToString("dd/MM/yyyy")</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-footer">
+            <div class="d-flex justify-content-between">
+                @Html.AntiForgeryToken()
+                <button class="btn btn-primary" onclick="themVaoGio('@Model.MaHH')">
+                    Thêm vào giỏ
+                </button>
+
+                @Html.ActionLink("Quay lại", "ShowProducts", null, new { @class = "btn btn-secondary" })
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .product-image-container {
+        border: 1px solid #ddd;
+        padding: 10px;
+        border-radius: 8px;
+        background-color: #fff;
+    }
+
+    .product-details {
+        padding: 20px;
+    }
+
+    .detail-item {
+        margin-bottom: 15px;
+    }
+
+        .detail-item .label {
+            color: #666;
+            min-width: 120px;
+            display: inline-block;
+        }
+
+        .detail-item .value {
+            color: #333;
+            font-size: 1.1em;
+        }
+
+    .card {
+        border: none;
+        border-radius: 10px;
+    }
+
+    .card-header {
+        border-radius: 10px 10px 0 0 !important;
+    }
+
+    .btn {
+        padding: 8px 20px;
+        border-radius: 5px;
+    }
+</style>
+<script src="~/Scripts/jquery.js"></script>
+<script src="~/Scripts/jquery.js"></script>
+<script>
+    function themVaoGio(maHH) {
+        const btn = event.target;
+        btn.disabled = true;
+        btn.innerHTML = 'Đang xử lý...';
+
+        var token = $('input[name="__RequestVerificationToken"]').val();
+
+        $.ajax({
+            url: '/GioHangs/AddToCart',
+            type: 'POST',
+            data: {
+                maHH: maHH,
+                soLuong: 1,
+                __RequestVerificationToken: token
+            },
+            success: function (response) {
+                if (response.success) {
+                    toastr.success(response.message);
+                    updateCartCount(); // Make sure this gets called
+                } else {
+                    toastr.error(response.message);
+                }
+            },
+            error: function () {
+                toastr.error('Có lỗi xảy ra khi thêm vào giỏ hàng.');
+            },
+            complete: function () {
+                btn.disabled = false;
+                btn.innerHTML = 'Thêm vào giỏ';
+            }
+        });
+    }
+
+
+
+</script>
+<script src="~/Scripts/bootstrap.bundle.min.js"></script>
+<script src="~/Scripts/bootstrap.bundle.min.js"></script>
+<script src="~/Scripts/jquery.js"></script>
+<script src="~/Scripts/bootstrap.bundle.min.js"></script>
+
+
+<!-- Existing layout content -->

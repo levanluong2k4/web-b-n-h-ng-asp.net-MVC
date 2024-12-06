@@ -1,0 +1,31 @@
+﻿@model banhang_64131236.Models.QuanTri
+@{
+    ViewBag.Title = "Login";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+
+
+
+
+
+<div class="container">
+    <h2>Login</h2>
+    @using (Html.BeginForm())
+    {
+        @Html.ValidationSummary(true)
+        <div class="form-group">
+            @Html.LabelFor(m => m.username)
+            @Html.TextBoxFor(m => m.username, new { @class = "form-control" })
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(m => m.Password)
+            @Html.PasswordFor(m => m.Password, new { @class = "form-control" })
+        </div>
+        <div class="text-danger">@ViewBag.Error</div>
+        <button type="submit" class="btn btn-primary">Login</button>
+    }
+    <p>
+        Don't have an account? @Html.ActionLink("Register", "Register")
+    </p>
+</div>
+

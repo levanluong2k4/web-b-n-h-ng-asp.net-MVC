@@ -1,0 +1,24 @@
+﻿
+@model IEnumerable<banhang_64131236.Models.LoaiHang>
+@{
+    ViewBag.Title = "CategoryMenu";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+
+
+
+
+
+<div class="categories-menu">
+    <h3>Danh mục sản phẩm</h3>
+    <ul class="list-group">
+        @foreach (var item in Model)
+        {
+            <li class="list-group-item">
+                @Html.ActionLink(item.TenLH, "ShowProducts", "LoaiHangs",
+                    new { id = item.MaLH }, null)
+            </li>
+        }
+    </ul>
+</div>
+

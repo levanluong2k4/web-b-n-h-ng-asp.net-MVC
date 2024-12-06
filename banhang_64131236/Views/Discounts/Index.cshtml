@@ -1,0 +1,58 @@
+﻿@model IEnumerable<banhang_64131236.Models.Discount>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.TenGiamGia)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.LoaiGiamGia)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.GiaTriGiamGia)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NgayBatDau)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NgayKetThuc)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.TenGiamGia)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.LoaiGiamGia)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.GiaTriGiamGia)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NgayBatDau)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NgayKetThuc)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.MaGiamGia }) |
+            @Html.ActionLink("Details", "Details", new { id=item.MaGiamGia }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.MaGiamGia })
+        </td>
+    </tr>
+}
+
+</table>

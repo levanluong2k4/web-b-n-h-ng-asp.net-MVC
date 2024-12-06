@@ -1,0 +1,354 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\projectweb\\banhang_64131236\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EC926674-4289-4EC3-AE03-094336E75268}|banhang_64131236.csproj|D:\\projectweb\\banhang_64131236\\views\\shared\\_layoutpage1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EC926674-4289-4EC3-AE03-094336E75268}|banhang_64131236.csproj|solutionrelative:views\\shared\\_layoutpage1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC926674-4289-4EC3-AE03-094336E75268}|banhang_64131236.csproj|d:\\projectweb\\banhang_64131236\\controllers\\giohangscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC926674-4289-4EC3-AE03-094336E75268}|banhang_64131236.csproj|solutionrelative:controllers\\giohangscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC926674-4289-4EC3-AE03-094336E75268}|banhang_64131236.csproj|d:\\projectweb\\banhang_64131236\\controllers\\chitietgiohangs_64131236controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC926674-4289-4EC3-AE03-094336E75268}|banhang_64131236.csproj|solutionrelative:controllers\\chitietgiohangs_64131236controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC926674-4289-4EC3-AE03-094336E75268}|banhang_64131236.csproj|d:\\projectweb\\banhang_64131236\\views\\hanghoas\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EC926674-4289-4EC3-AE03-094336E75268}|banhang_64131236.csproj|solutionrelative:views\\hanghoas\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC926674-4289-4EC3-AE03-094336E75268}|banhang_64131236.csproj|d:\\projectweb\\banhang_64131236\\views\\chitietgiohangs_64131236\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EC926674-4289-4EC3-AE03-094336E75268}|banhang_64131236.csproj|solutionrelative:views\\chitietgiohangs_64131236\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC926674-4289-4EC3-AE03-094336E75268}|banhang_64131236.csproj|d:\\projectweb\\banhang_64131236\\models\\chitietgiohang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC926674-4289-4EC3-AE03-094336E75268}|banhang_64131236.csproj|solutionrelative:models\\chitietgiohang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC926674-4289-4EC3-AE03-094336E75268}|banhang_64131236.csproj|d:\\projectweb\\banhang_64131236\\models\\giohang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC926674-4289-4EC3-AE03-094336E75268}|banhang_64131236.csproj|solutionrelative:models\\giohang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC926674-4289-4EC3-AE03-094336E75268}|banhang_64131236.csproj|D:\\projectweb\\banhang_64131236\\content\\tiki.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{EC926674-4289-4EC3-AE03-094336E75268}|banhang_64131236.csproj|solutionrelative:content\\tiki.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC926674-4289-4EC3-AE03-094336E75268}|banhang_64131236.csproj|d:\\projectweb\\banhang_64131236\\models\\model1_64131236.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{EC926674-4289-4EC3-AE03-094336E75268}|banhang_64131236.csproj|solutionrelative:models\\model1_64131236.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC926674-4289-4EC3-AE03-094336E75268}|banhang_64131236.csproj|d:\\projectweb\\banhang_64131236\\views\\chitietgiohangs_64131236\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EC926674-4289-4EC3-AE03-094336E75268}|banhang_64131236.csproj|solutionrelative:views\\chitietgiohangs_64131236\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC926674-4289-4EC3-AE03-094336E75268}|banhang_64131236.csproj|d:\\projectweb\\banhang_64131236\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{EC926674-4289-4EC3-AE03-094336E75268}|banhang_64131236.csproj|solutionrelative:web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC926674-4289-4EC3-AE03-094336E75268}|banhang_64131236.csproj|d:\\projectweb\\banhang_64131236\\controllers\\quantris_64131236controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC926674-4289-4EC3-AE03-094336E75268}|banhang_64131236.csproj|solutionrelative:controllers\\quantris_64131236controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC926674-4289-4EC3-AE03-094336E75268}|banhang_64131236.csproj|d:\\projectweb\\banhang_64131236\\models\\quantri.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC926674-4289-4EC3-AE03-094336E75268}|banhang_64131236.csproj|solutionrelative:models\\quantri.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC926674-4289-4EC3-AE03-094336E75268}|banhang_64131236.csproj|d:\\projectweb\\banhang_64131236\\models\\hanghoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC926674-4289-4EC3-AE03-094336E75268}|banhang_64131236.csproj|solutionrelative:models\\hanghoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC926674-4289-4EC3-AE03-094336E75268}|banhang_64131236.csproj|d:\\projectweb\\banhang_64131236\\models\\khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC926674-4289-4EC3-AE03-094336E75268}|banhang_64131236.csproj|solutionrelative:models\\khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC926674-4289-4EC3-AE03-094336E75268}|banhang_64131236.csproj|d:\\projectweb\\banhang_64131236\\models\\customauthorizeattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC926674-4289-4EC3-AE03-094336E75268}|banhang_64131236.csproj|solutionrelative:models\\customauthorizeattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC926674-4289-4EC3-AE03-094336E75268}|banhang_64131236.csproj|d:\\projectweb\\banhang_64131236\\models\\adminauthorizeattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC926674-4289-4EC3-AE03-094336E75268}|banhang_64131236.csproj|solutionrelative:models\\adminauthorizeattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC926674-4289-4EC3-AE03-094336E75268}|banhang_64131236.csproj|d:\\projectweb\\banhang_64131236\\controllers\\hanghoascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC926674-4289-4EC3-AE03-094336E75268}|banhang_64131236.csproj|solutionrelative:controllers\\hanghoascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC926674-4289-4EC3-AE03-094336E75268}|banhang_64131236.csproj|d:\\projectweb\\banhang_64131236\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC926674-4289-4EC3-AE03-094336E75268}|banhang_64131236.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 21,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\projectweb\\banhang_64131236\\Views\\ChiTietGioHangs_64131236\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\ChiTietGioHangs_64131236\\Index.cshtml",
+              "ToolTip": "D:\\projectweb\\banhang_64131236\\Views\\ChiTietGioHangs_64131236\\Index.cshtml",
+              "RelativeToolTip": "Views\\ChiTietGioHangs_64131236\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-06T08:29:32.657Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Web.config",
+              "DocumentMoniker": "D:\\projectweb\\banhang_64131236\\Web.config",
+              "RelativeDocumentMoniker": "Web.config",
+              "ToolTip": "D:\\projectweb\\banhang_64131236\\Web.config",
+              "RelativeToolTip": "Web.config",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABsAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-12-06T07:46:12.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "QuanTri.cs",
+              "DocumentMoniker": "D:\\projectweb\\banhang_64131236\\Models\\QuanTri.cs",
+              "RelativeDocumentMoniker": "Models\\QuanTri.cs",
+              "ToolTip": "D:\\projectweb\\banhang_64131236\\Models\\QuanTri.cs",
+              "RelativeToolTip": "Models\\QuanTri.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T06:43:57.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "HangHoa.cs",
+              "DocumentMoniker": "D:\\projectweb\\banhang_64131236\\Models\\HangHoa.cs",
+              "RelativeDocumentMoniker": "Models\\HangHoa.cs",
+              "ToolTip": "D:\\projectweb\\banhang_64131236\\Models\\HangHoa.cs",
+              "RelativeToolTip": "Models\\HangHoa.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAAACoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T06:43:37.799Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ChiTietGioHang.cs",
+              "DocumentMoniker": "D:\\projectweb\\banhang_64131236\\Models\\ChiTietGioHang.cs",
+              "RelativeDocumentMoniker": "Models\\ChiTietGioHang.cs",
+              "ToolTip": "D:\\projectweb\\banhang_64131236\\Models\\ChiTietGioHang.cs",
+              "RelativeToolTip": "Models\\ChiTietGioHang.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T06:43:13.9Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "KhachHang.cs",
+              "DocumentMoniker": "D:\\projectweb\\banhang_64131236\\Models\\KhachHang.cs",
+              "RelativeDocumentMoniker": "Models\\KhachHang.cs",
+              "ToolTip": "D:\\projectweb\\banhang_64131236\\Models\\KhachHang.cs",
+              "RelativeToolTip": "Models\\KhachHang.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAywCEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T06:42:51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GioHang.cs",
+              "DocumentMoniker": "D:\\projectweb\\banhang_64131236\\Models\\GioHang.cs",
+              "RelativeDocumentMoniker": "Models\\GioHang.cs",
+              "ToolTip": "D:\\projectweb\\banhang_64131236\\Models\\GioHang.cs",
+              "RelativeToolTip": "Models\\GioHang.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T06:42:12.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CustomAuthorizeAttribute.cs",
+              "DocumentMoniker": "D:\\projectweb\\banhang_64131236\\Models\\CustomAuthorizeAttribute.cs",
+              "RelativeDocumentMoniker": "Models\\CustomAuthorizeAttribute.cs",
+              "ToolTip": "D:\\projectweb\\banhang_64131236\\Models\\CustomAuthorizeAttribute.cs",
+              "RelativeToolTip": "Models\\CustomAuthorizeAttribute.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T06:41:21.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AdminAuthorizeAttribute.cs",
+              "DocumentMoniker": "D:\\projectweb\\banhang_64131236\\Models\\AdminAuthorizeAttribute.cs",
+              "RelativeDocumentMoniker": "Models\\AdminAuthorizeAttribute.cs",
+              "ToolTip": "D:\\projectweb\\banhang_64131236\\Models\\AdminAuthorizeAttribute.cs",
+              "RelativeToolTip": "Models\\AdminAuthorizeAttribute.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T06:40:47.844Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\projectweb\\banhang_64131236\\Views\\ChiTietGioHangs_64131236\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\ChiTietGioHangs_64131236\\Details.cshtml",
+              "ToolTip": "D:\\projectweb\\banhang_64131236\\Views\\ChiTietGioHangs_64131236\\Details.cshtml",
+              "RelativeToolTip": "Views\\ChiTietGioHangs_64131236\\Details.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAAB0AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-06T02:56:20.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\projectweb\\banhang_64131236\\Views\\HangHoas\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\HangHoas\\Details.cshtml",
+              "ToolTip": "D:\\projectweb\\banhang_64131236\\Views\\HangHoas\\Details.cshtml",
+              "RelativeToolTip": "Views\\HangHoas\\Details.cshtml",
+              "ViewState": "AQIAAGMAAAAAAAAAAAAAAJoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-06T02:23:03.559Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "HangHoasController.cs",
+              "DocumentMoniker": "D:\\projectweb\\banhang_64131236\\Controllers\\HangHoasController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HangHoasController.cs",
+              "ToolTip": "D:\\projectweb\\banhang_64131236\\Controllers\\HangHoasController.cs",
+              "RelativeToolTip": "Controllers\\HangHoasController.cs",
+              "ViewState": "AQIAAGQAAAAAAAAAAADwv4QAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T02:20:24.283Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "QuanTris_64131236Controller.cs",
+              "DocumentMoniker": "D:\\projectweb\\banhang_64131236\\Controllers\\QuanTris_64131236Controller.cs",
+              "RelativeDocumentMoniker": "Controllers\\QuanTris_64131236Controller.cs",
+              "ToolTip": "D:\\projectweb\\banhang_64131236\\Controllers\\QuanTris_64131236Controller.cs",
+              "RelativeToolTip": "Controllers\\QuanTris_64131236Controller.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAKcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T02:19:39.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\projectweb\\banhang_64131236\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "D:\\projectweb\\banhang_64131236\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AQIAAIIBAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T02:19:08.657Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ChiTietGioHangs_64131236Controller.cs",
+              "DocumentMoniker": "D:\\projectweb\\banhang_64131236\\Controllers\\ChiTietGioHangs_64131236Controller.cs",
+              "RelativeDocumentMoniker": "Controllers\\ChiTietGioHangs_64131236Controller.cs",
+              "ToolTip": "D:\\projectweb\\banhang_64131236\\Controllers\\ChiTietGioHangs_64131236Controller.cs",
+              "RelativeToolTip": "Controllers\\ChiTietGioHangs_64131236Controller.cs",
+              "ViewState": "AQIAAGwAAAAAAAAAAAAAAIkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T02:17:50.452Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GioHangsController.cs",
+              "DocumentMoniker": "D:\\projectweb\\banhang_64131236\\Controllers\\GioHangsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\GioHangsController.cs",
+              "ToolTip": "D:\\projectweb\\banhang_64131236\\Controllers\\GioHangsController.cs",
+              "RelativeToolTip": "Controllers\\GioHangsController.cs",
+              "ViewState": "AQIAAOYAAAAAAAAAAAAQwAEBAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T02:17:40.733Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Model1_64131236.edmx [Diagram1]",
+              "DocumentMoniker": "D:\\projectweb\\banhang_64131236\\Models\\Model1_64131236.edmx",
+              "RelativeDocumentMoniker": "Models\\Model1_64131236.edmx",
+              "ToolTip": "D:\\projectweb\\banhang_64131236\\Models\\Model1_64131236.edmx [Diagram1]",
+              "RelativeToolTip": "Models\\Model1_64131236.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-12-03T15:43:06.111Z",
+              "EditorCaption": " [Diagram1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "tiki.css",
+              "DocumentMoniker": "D:\\projectweb\\banhang_64131236\\Content\\tiki.css",
+              "RelativeDocumentMoniker": "Content\\tiki.css",
+              "ToolTip": "D:\\projectweb\\banhang_64131236\\Content\\tiki.css",
+              "RelativeToolTip": "Content\\tiki.css",
+              "ViewState": "AQIAANUAAAAAAAAAAAAAAN4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-03T13:36:54.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_LayoutPage1.cshtml",
+              "DocumentMoniker": "D:\\projectweb\\banhang_64131236\\Views\\Shared\\_LayoutPage1.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_LayoutPage1.cshtml",
+              "ToolTip": "D:\\projectweb\\banhang_64131236\\Views\\Shared\\_LayoutPage1.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_LayoutPage1.cshtml",
+              "ViewState": "AQIAAM0BAAAAAAAAAAAAANoBAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-03T13:36:15.424Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

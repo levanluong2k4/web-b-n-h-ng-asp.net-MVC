@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="8e7f88157d3c473b95b01aea9977a50c" Name="Diagram1" ZoomLevel="86">
+        <EntityTypeShape EntityType="project_webtaphoa_64131236Model.ChiTietDonHang" Width="1.5" PointX="7.5" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="project_webtaphoa_64131236Model.ChiTietGioHang" Width="1.5" PointX="8.5" PointY="11.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="project_webtaphoa_64131236Model.ChiTietHoaDon" Width="1.5" PointX="11.875" PointY="10.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="project_webtaphoa_64131236Model.Discount" Width="1.5" PointX="1.875" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="project_webtaphoa_64131236Model.DonHang" Width="1.5" PointX="5.25" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="project_webtaphoa_64131236Model.GioHang" Width="1.5" PointX="7.125" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="project_webtaphoa_64131236Model.HangHoa" Width="1.5" PointX="4.75" PointY="11" IsExpanded="true" />
+        <EntityTypeShape EntityType="project_webtaphoa_64131236Model.HoaDon" Width="1.5" PointX="9.5" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="project_webtaphoa_64131236Model.KhachHang" Width="1.5" PointX="3" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="project_webtaphoa_64131236Model.LoaiHang" Width="1.5" PointX="0.875" PointY="11.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="project_webtaphoa_64131236Model.NhanVien" Width="1.5" PointX="3" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="project_webtaphoa_64131236Model.QuanTri" Width="1.5" PointX="0.75" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="project_webtaphoa_64131236Model.sysdiagram" Width="1.5" PointX="5.125" PointY="0.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="project_webtaphoa_64131236Model.v_LichSuDonHang" Width="1.5" PointX="7" PointY="0.5" IsExpanded="true" />
+        <AssociationConnector Association="project_webtaphoa_64131236Model.FK__ChiTietDon__MaDH__02084FDA" ManuallyRouted="false" />
+        <AssociationConnector Association="project_webtaphoa_64131236Model.FK__ChiTietDon__MaHH__02FC7413" ManuallyRouted="false" />
+        <AssociationConnector Association="project_webtaphoa_64131236Model.fk_ChiTietGioHang_GioHang" ManuallyRouted="false" />
+        <AssociationConnector Association="project_webtaphoa_64131236Model.fk_ChiTietGioHang_HangHoa" ManuallyRouted="false" />
+        <AssociationConnector Association="project_webtaphoa_64131236Model.fk_ChiTietHoaDon_HangHoa" ManuallyRouted="false" />
+        <AssociationConnector Association="project_webtaphoa_64131236Model.fk_ChiTietHoaDon_HoaDon" ManuallyRouted="false" />
+        <AssociationConnector Association="project_webtaphoa_64131236Model.fk_DonHang_Discounts" ManuallyRouted="false" />
+        <AssociationConnector Association="project_webtaphoa_64131236Model.FK__DonHang__MaKH__5CD6CB2B" ManuallyRouted="false" />
+        <AssociationConnector Association="project_webtaphoa_64131236Model.fk_HoaDon_DonHang" ManuallyRouted="false" />
+        <AssociationConnector Association="project_webtaphoa_64131236Model.fk_GioHang_KhachHang" ManuallyRouted="false" />
+        <AssociationConnector Association="project_webtaphoa_64131236Model.fk_loaihanghoa" ManuallyRouted="false" />
+        <AssociationConnector Association="project_webtaphoa_64131236Model.fk_HoaDon_KhachHang" ManuallyRouted="false" />
+        <AssociationConnector Association="project_webtaphoa_64131236Model.fk_HoaDon_NV" ManuallyRouted="false" />
+        <AssociationConnector Association="project_webtaphoa_64131236Model.fk_username" ManuallyRouted="false" />
+        <AssociationConnector Association="project_webtaphoa_64131236Model.fk_usernamenv" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

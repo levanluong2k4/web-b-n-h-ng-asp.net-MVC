@@ -1,0 +1,130 @@
+﻿
+
+@model banhang_64131236.Models.GioHang
+
+@{
+    ViewBag.Title = "Giỏ hàng";
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+
+<div class="container mt-4">
+    <h2>Giỏ hàng của bạn</h2>
+
+    @if (Model != null && Model.ChiTietGioHangs.Any())
+    {
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Sản phẩm</th>
+                    <th>Giá</th>
+                    <th>Số lượng</th>
+                    <th>Thành tiền</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.ChiTietGioHangs)
+                {
+                    <tr id="cart-item-@item.MaHH">
+                        <td>@item.HangHoa.TenHH</td>
+                        <td>@item.HangHoa.GiaBan.ToString("N0") đ</td>
+                        <td>
+                            <input type="number" min="1" value="@item.SoLuong"
+                                   onchange="updateQuantity('@item.MaHH', this.value)" />
+                        </td>
+                        <td class="item-total">
+                            @((item.SoLuong * item.HangHoa.GiaBan).ToString("N0")) đ
+                        </td>
+                        <td>
+                            <button class="btn btn-danger btn-sm"
+                                    onclick="removeItem('@item.MaHH')">
+                                <i class="fa fa-trash"></i>
+                            </button>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3" class="text-right"><strong>Tổng cộng:</strong></td>
+                    <td colspan="2" class="cart-total">
+                        @Model.ChiTietGioHangs.Sum(x => x.SoLuong * x.HangHoa.GiaBan).ToString("N0") đ
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+
+        <div class="text-right mt-3">
+            <a href="@Url.Action("Index", "Home")" class="btn btn-secondary">
+                Tiếp tục mua hàng
+            </a>
+            <a href="@Url.Action("Checkout", "DonHang")" class="btn btn-primary">
+                Thanh toán
+            </a>
+        </div>
+    }
+    else
+    {
+        <div class="alert alert-info">
+            Giỏ hàng của bạn đang trống.
+            <a href="@Url.Action("Index", "Home")">Tiếp tục mua hàng</a>
+        </div>
+    }
+</div>
+
+@section Scripts {
+    <script>
+        function updateQuantity(maHH, soLuong) {
+            $.ajax({
+                url: '/GioHangs/UpdateQuantity',
+                type: 'POST',
+                data: { maHH: maHH, soLuong: soLuong },
+                success: function (response) {
+                    if (response.success) {
+                        // Update item total
+                        updateItemTotal(maHH, response.newTotal);
+                        updateCartTotal();
+                        updateCartCount();
+                    } else {
+                        alert(response.message);
+                    }
+                }
+            });
+        }
+
+        function removeItem(maHH) {
+            if (confirm('Bạn có chắc muốn xóa sản phẩm này?')) {
+                $.ajax({
+                    url: '/GioHangs/RemoveItem',
+                    type: 'POST',
+                    data: { maHH: maHH },
+                    success: function (response) {
+                        if (response.success) {
+                            $('#cart-item-' + maHH).remove();
+                            updateCartTotal();
+                            updateCartCount();
+                            if ($('tbody tr').length === 0) {
+                                location.reload();
+                            }
+                        } else {
+                            alert(response.message);
+                        }
+                    }
+                });
+            }
+        }
+
+        function updateItemTotal(maHH, newTotal) {
+            $('#cart-item-' + maHH + ' .item-total').text(newTotal.toLocaleString() + ' đ');
+        }
+
+        function updateCartTotal() {
+            var total = 0;
+            $('.item-total').each(function() {
+                total += parseFloat($(this).text().replace(/[^\d]/g, ''));
+            });
+            $('.cart-total').text(total.toLocaleString() + ' đ');
+        }
+    </script>
+}

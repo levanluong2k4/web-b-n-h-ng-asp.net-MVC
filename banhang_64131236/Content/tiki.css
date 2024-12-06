@@ -1,0 +1,245 @@
+﻿* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+header .inner-input {
+    border: 1px solid rgba(0, 0, 0, 0.253);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+    header .inner-input input {
+        width: 90%;
+        outline: none;
+    }
+
+    header .inner-input button {
+        width: 10%;
+        border-radius: 0px;
+    }
+
+        header .inner-input button:hover {
+            background-color: #CEE1FF;
+        }
+
+    header .inner-input .icone-search {
+        font-size: 20px;
+    }
+
+
+
+header .listds li {
+    margin: 0px;
+    margin-right: 20px;
+}
+
+.section-one {
+    background-color: #FFE880;
+}
+
+    .section-one a {
+        font-size: 18px;
+        font-weight: 600;
+        padding: 10px 0px;
+    }
+
+.inner-menu li img {
+    width: 40px;
+    height: auto;
+    object-fit: cover;
+}
+
+.inner-menu li {
+    padding: 10px 0px;
+    padding-left: 10px;
+    line-height: 55px;
+}
+
+    .inner-menu li:hover {
+        background: #E7E7E7;
+        border-radius: 8px;
+    }
+
+.p-menu {
+    padding-right: 30px;
+}
+
+.inner-menu {
+    height: 100vh;
+    overflow-y: auto; /* Cho phép cuộn dọc */
+
+    scrollbar-width: none; /* Ẩn thanh cuộn cho Firefox */
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+    .bg-gray
+
+{
+    background-color: rgba(128, 128, 128, 0.185);
+}
+
+.bg-white {
+    background: white;
+}
+
+
+
+.menu2 .item {
+    text-align: center;
+    font-size: 13px;
+    align-items: center;
+}
+
+    .menu2 .item img {
+        width: 80px;
+        height: auto;
+        border-radius: 10px;
+    }
+
+.inner-deal img {
+    height: 50px;
+    width: auto;
+}
+
+.inner-deal .view-more {
+    color: #1670FF;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.bg-light {
+    background-color: brown;
+}
+
+
+.inner-suggest {
+    width: 400px;
+    height: 200px;
+    background-color: aliceblue;
+    border: 2px solid black;
+    top: 25px;
+    z-index: 20;
+    overflow: auto;
+}
+
+.inner-d-none {
+    display: none;
+}
+
+.no-item {
+    text-align: center;
+}
+
+.comparate-item {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.281);
+    padding: 10px;
+}
+
+    .comparate-item:hover {
+        background-color: rgba(0, 0, 0, 0.116);
+        transition: all 0.3s;
+    }
+
+    .comparate-item img {
+        width: 80px;
+        height: auto;
+    }
+
+.pagination {
+    display: inline-block;
+}
+
+    .pagination a {
+        color: black;
+        float: left;
+        padding: 8px 16px;
+        text-decoration: none;
+        transition: background-color .3s;
+    }
+
+        .pagination a.active {
+            background-color: #4CAF50;
+            color: white;
+            border-radius: 5px;
+        }
+
+        .pagination a:hover:not(.active) {
+            background-color: #ddd;
+            border-radius: 5px;
+        }
+
+.tag {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap: 20px;
+}
+
+    .tag a {
+        text-align: center;
+        text-decoration: none;
+        padding: 20px;
+        background-color: #8BC644;
+        border-radius: 10px;
+    }
+
+.list-item {
+    display: flex;
+}
+
+.inner-item .item {
+    text-align: center;
+}
+
+.inner-item {
+    background-color: aliceblue;
+}
+
+    .inner-item .item img {
+        margin: 0px auto;
+    }
+
+body {
+    background-color: #E8E8E8;
+}
+
+@keyframes pulse {
+    0%
+
+{
+    transform: scale(1);
+}
+
+50% {
+    transform: scale(1.2);
+}
+
+100% {
+    transform: scale(1);
+}
+
+}
+
+.cart-badge.pulse {
+    animation: pulse 0.5s ease-in-out;
+}
+
+

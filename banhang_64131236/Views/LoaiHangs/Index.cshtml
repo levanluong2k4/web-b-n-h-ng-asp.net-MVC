@@ -1,0 +1,163 @@
+﻿@model IEnumerable<banhang_64131236.Models.LoaiHang>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+<style>
+    .pagination-container {
+        display: flex;
+        justify-content: center;
+        margin: 20px 0;
+    }
+
+    .page-link {
+        display: inline-block;
+        padding: 10px 15px;
+        margin: 0 5px;
+        border: 1px solid #007bff;
+        border-radius: 5px;
+        color: #007bff;
+        text-decoration: none;
+        background-color: #fff;
+        transition: background-color 0.3s, color 0.3s;
+    }
+
+    .current-page {
+        display: inline-block;
+        padding: 10px 15px;
+        margin: 0 5px;
+        border: 1px solid #007bff;
+        border-radius: 5px;
+        color: #fff;
+        background-color: #007bff;
+    }
+
+    .page-link:hover {
+        background-color: #007bff;
+        color: #fff;
+    }
+
+    .inner-card {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        gap: 15px;
+    }
+
+    .card {
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        text-align: center;
+        position: relative;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease;
+    }
+      .card:hover {
+       
+
+    
+        transform: scale(1.05);
+    
+        }
+
+        .inner-coche {
+            position: absolute;
+            bottom: 0px;
+            left: 0px;
+        }
+
+        .inner-coche a {
+            color: red;
+        }
+
+    .card img {
+        width: 180px;
+        height: auto;
+        margin: 0px auto;
+        margin-bottom: 10px;
+    }
+
+    .search-sort-container {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+
+    .search-input, .sort-dropdown, .search-btn {
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+    }
+
+    .search-btn {
+        background-color: #007bff;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+
+        .search-btn:hover {
+            background-color: #0056b3;
+        }
+
+    header .inner-logo {
+        height: 100px;
+        width: auto;
+    }
+
+    .inner-item .item img {
+        height: 80px;
+        width: auto;
+    }
+
+    .inner-item .item {
+        text-align: center;
+    }
+
+        .inner-item .item img {
+            margin: 0px auto;
+        }
+
+
+        .inner-item .item img {
+            margin: 0px auto;
+        }
+    body {
+        background-color: #E8E8E8;
+    }
+</style>
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.AnhLH)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TenLH)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.AnhLH)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TenLH)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.MaLH }) |
+            @Html.ActionLink("Details", "Details", new { id=item.MaLH }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.MaLH })
+        </td>
+    </tr>
+}
+
+</table>

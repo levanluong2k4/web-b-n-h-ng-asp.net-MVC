@@ -1,0 +1,31 @@
+﻿@model IEnumerable<banhang_64131236.Models.LoaiHang>
+@{
+    ViewBag.Title = "Danh mục sản phẩm";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+
+<div class="container mt-4">
+    <h2 class="text-center mb-4">Danh mục sản phẩm</h2>
+
+    <div class="row">
+        @foreach (var item in Model)
+        {
+            <div class="col-md-4 col-sm-6 mb-4">
+                <div class="card h-100 shadow-sm">
+                    @if (!string.IsNullOrEmpty(item.AnhLH))
+                    {
+                        <img src="~/img/@item.AnhLH" class="card-img-top" alt="@item.TenLH" style="height: 200px; object-fit: cover;">
+                    }
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title text-center">@item.TenLH</h5>
+                        <div class="mt-auto text-center">
+                            @Html.ActionLink("Xem sản phẩm", "ShowProducts", new { id = item.MaLH },
+                                new { @class = "btn btn-primary btn-block" })
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
